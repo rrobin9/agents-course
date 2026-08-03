@@ -218,6 +218,18 @@ footer { border-top:1px solid var(--line); padding:58px 0 38px; position:relativ
   *,*::before,*::after { animation-duration:0.01ms!important; animation-iteration-count:1!important; transition-duration:0.01ms!important; }
   .rv { opacity:1; transform:none; }
 }
+
+.wa-lead { font-size:14.8px; color:var(--ink-dim); line-height:1.7; margin-bottom:24px; }
+.wa-big { display:flex; align-items:center; justify-content:center; gap:12px; width:100%; padding:19px; background:#1faa53; color:#fff; border-radius:100px;
+  font-family:'Space Grotesk',sans-serif; font-size:16px; font-weight:700; text-decoration:none; transition:all .3s cubic-bezier(.4,0,.2,1); box-shadow:0 6px 28px rgba(31,170,83,0.32); }
+.wa-big:hover { transform:translateY(-2px); background:#25c162; box-shadow:0 14px 44px rgba(31,170,83,0.45); }
+.wa-big svg { fill:#fff; flex-shrink:0; }
+.wa-num { text-align:center; font-family:'JetBrains Mono',monospace; font-size:15px; letter-spacing:0.1em; color:var(--amber); margin-top:16px; }
+.wa-steps { margin-top:30px; padding-top:26px; border-top:1px solid var(--line); display:flex; flex-direction:column; gap:20px; }
+.wa-step { display:flex; gap:16px; align-items:flex-start; }
+.wa-sn { font-family:'JetBrains Mono',monospace; font-size:11px; color:var(--accent); letter-spacing:0.14em; padding-top:3px; flex-shrink:0; }
+.wa-step strong { display:block; font-size:14.5px; font-weight:600; color:var(--ink); margin-bottom:3px; }
+.wa-step p { font-size:13.3px; color:var(--ink-dim); line-height:1.6; }
 </style>
 </head>
 <body>
@@ -226,11 +238,11 @@ footer { border-top:1px solid var(--line); padding:58px 0 38px; position:relativ
 
 <div class="announce">
   <div class="ann-track">
-    <span class="ann-item">No slots available until mid August</span>
+    <span class="ann-item">No slots available until end of August</span>
     <span class="ann-item">Advance bookings now open</span>
     <span class="ann-item">Limited 1:1 slots</span>
     <span class="ann-item">Serious students only</span>
-    <span class="ann-item">No slots available until mid August</span>
+    <span class="ann-item">No slots available until end of August</span>
     <span class="ann-item">Advance bookings now open</span>
     <span class="ann-item">Limited 1:1 slots</span>
     <span class="ann-item">Serious students only</span>
@@ -253,7 +265,7 @@ footer { border-top:1px solid var(--line); padding:58px 0 38px; position:relativ
   <div class="container">
     <div class="hero-g">
       <div>
-        <div class="eyebrow-pill"><span class="pulse"></span>Booked till mid August · Advance bookings open</div>
+        <div class="eyebrow-pill"><span class="pulse"></span>Booked till end of August · Advance bookings open</div>
         <h1>Build AI agents <em>with me.</em></h1>
         <p class="hero-sub">A fully project-based, one-to-one course where you build <strong>7 to 8 real agents from scratch</strong>. Taught by someone who is <strong>actively shipping agentic AI solutions to businesses around the globe</strong>, so everything you learn is what actually works right now.</p>
         <div class="cta-row">
@@ -266,7 +278,7 @@ footer { border-top:1px solid var(--line); padding:58px 0 38px; position:relativ
         <div class="status">
           <div class="st-head"><span>booking_status</span><span class="lights"><span></span><span></span><span></span></span></div>
           <div class="st-body">
-            <div class="st-line"><span class="st-k">current</span><span class="st-v hot">NO SLOTS → until mid August</span></div>
+            <div class="st-line"><span class="st-k">current</span><span class="st-v hot">NO SLOTS → until end of August</span></div>
             <div class="st-line"><span class="st-k">next_intake</span><span class="st-v ok">OPEN — advance booking</span></div>
             <div class="st-line"><span class="st-k">format</span><span class="st-v">1:1 live sessions only</span></div>
             <div class="slotbar"><div class="slotfill"></div></div>
@@ -282,7 +294,7 @@ footer { border-top:1px solid var(--line); padding:58px 0 38px; position:relativ
               <div class="port-name">Robin Singh</div>
               <div class="port-role">Shipping Agentic AI Worldwide</div>
             </div>
-            <div class="badge">Booked till mid Aug</div>
+            <div class="badge">Booked till end Aug</div>
           </div>
         </div>
       </div>
@@ -308,7 +320,7 @@ footer { border-top:1px solid var(--line); padding:58px 0 38px; position:relativ
     <div class="strip rv">
       <div class="strip-l">
         <span class="pulse"></span>
-        <p><strong>Current availability:</strong> all 1:1 slots are booked and no slots are available until mid August. I am taking <strong>advance bookings now</strong> with limited slots. Booking early locks your preferred schedule.</p>
+        <p><strong>Current availability:</strong> all 1:1 slots are booked and no slots are available until end of August. I am taking <strong>advance bookings now</strong> with limited slots. Booking early locks your preferred schedule.</p>
       </div>
       <a href="#apply" class="btn btn-main" onclick="event.preventDefault();document.getElementById('apply').scrollIntoView({behavior:'smooth'})" style="flex-shrink:0;">Reserve a Slot →</a>
     </div>
@@ -406,7 +418,7 @@ footer { border-top:1px solid var(--line); padding:58px 0 38px; position:relativ
     <div class="eyebrow rv">Common Questions</div>
     <h2 class="h2 rv">Before you <em>ask.</em></h2>
     <div class="faq rv">
-      <div class="fq"><button class="fq-q">When can I actually start?</button><div class="fq-a"><p>All my 1:1 slots are currently full and no slots are available until mid August. I am taking advance bookings right now. Booking in advance locks your preferred time slot, because slots are assigned first come first served.</p></div></div>
+      <div class="fq"><button class="fq-q">When can I actually start?</button><div class="fq-a"><p>All my 1:1 slots are currently full and no slots are available until end of August. I am taking advance bookings right now. Booking in advance locks your preferred time slot, because slots are assigned first come first served.</p></div></div>
       <div class="fq"><button class="fq-q">How are sessions scheduled?</button><div class="fq-a"><p>You choose either weekday sessions or weekend sessions. Time slots are fixed based on your schedule and my availability. Once you confirm, I share 2 to 3 time slot options and we lock one.</p></div></div>
       <div class="fq"><button class="fq-q">Do I need prior experience?</button><div class="fq-a"><p>You do not need to be an experienced developer. The course is shaped around where you are. What matters far more is that you are serious, consistent, and willing to build.</p></div></div>
       <div class="fq"><button class="fq-q">What do I walk away with?</button><div class="fq-a"><p>7 to 8 real agents you built yourself, the ability to build new agents independently, and a clear path to using this skill for a job, freelancing, or your own business.</p></div></div>
@@ -419,41 +431,30 @@ footer { border-top:1px solid var(--line); padding:58px 0 38px; position:relativ
   <div class="container">
     <div class="ap-g">
       <div class="rv">
-        <div class="eyebrow">Advance Bookings Open</div>
+        <div class="eyebrow">Book on WhatsApp</div>
         <h2 class="h2">Lock your slot <em>before they fill.</em></h2>
-        <p class="lede">No slots are available until mid August. Advance bookings are open now with limited availability. Drop your details and I will personally reach out within 24 hours.</p>
+        <p class="lede">No slots are available until end of August. Advance bookings are open now with limited availability. All bookings happen on WhatsApp, message me directly and I will reply personally within 24 hours.</p>
         <ul class="pts">
           <li>Fully personalised 1:1 sessions with me, no batches, no crowds</li>
           <li>7 to 8 real agents you build from scratch</li>
           <li>Direct feedback on every project you build</li>
           <li>Booking early locks your preferred time slot</li>
+          <li>Direct WhatsApp access to me, no forms, no waiting</li>
         </ul>
-        <div class="note"><strong>A note before you apply:</strong> I give my full effort to every student, which is why slots are limited. Please apply only if you are serious about learning and willing to put in the work. If you are, I promise you will build things you did not think you could.</div>
+        <div class="note"><strong>A note before you apply:</strong> I give my full effort to every student, which is why slots are limited. Please message only if you are serious about learning and willing to put in the work. If you are, I promise you will build things you did not think you could.</div>
       </div>
       <div class="fcard rv">
-        <div id="fwrap">
-          <div class="fst"><span class="pulse"></span>Slots · Filling fast</div>
-          <div class="ft">Book your 1:1 slot</div>
-          <form id="rf">
-            <input type="hidden" name="access_key" value="84d5439c-c9d3-4fa5-b773-e5ea8926a4a8">
-            <input type="hidden" name="subject" value="New Booking Request - Build AI Agents With Me">
-            <input type="hidden" name="from_name" value="Robin Singh Course Website">
-            <div class="fg"><label class="fl">Full Name</label><input type="text" name="name" class="fi" placeholder="Your full name" required></div>
-            <div class="fg"><label class="fl">Email Address</label><input type="email" name="email" class="fi" placeholder="you@example.com" required></div>
-            <div class="fg"><label class="fl">Phone Number (WhatsApp preferred)</label><input type="tel" name="phone" class="fi" placeholder="+91 98765 43210" required></div>
-            <div class="fg"><label class="fl">Your current experience level</label>
-              <select name="experience" class="fs" required>
-                <option value="" disabled selected>Select one</option>
-                <option value="Complete beginner">Complete beginner</option>
-                <option value="Some technical background">Some technical background</option>
-                <option value="Experienced, want to specialise in agents">Experienced, want to specialise in agents</option>
-              </select>
-            </div>
-            <div class="fg"><label class="fl">Why do you want to join? (one line)</label><input type="text" name="reason" class="fi" placeholder="What do you want to build or achieve?" required></div>
-            <button type="submit" class="sub" id="sb"><span id="stx">Request My Slot</span><span>→</span></button>
-            <p class="fn">Only serious students with a willingness to learn should apply.<br>I personally reach out to every applicant within 24 hours.</p>
-          </form>
+        <div class="fst"><span class="pulse"></span>Slots · Filling fast</div>
+        <div class="ft">Book your slot on WhatsApp</div>
+        <p class="wa-lead">All bookings happen directly on WhatsApp. Message me with a line about yourself and what you want to build, and I will reply personally with available slots.</p>
+        <a href="https://wa.me/919990494272?text=Hi%20Robin%2C%20I%20want%20to%20book%20a%201%3A1%20slot%20for%20Build%20AI%20Agents%20With%20Me.%20A%20bit%20about%20me%3A%20" target="_blank" class="wa-big"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg><span>Message Me on WhatsApp</span></a>
+        <div class="wa-num">+91 99904 94272</div>
+        <div class="wa-steps">
+          <div class="wa-step"><span class="wa-sn">01</span><div><strong>Tap the button</strong><p>Opens a WhatsApp chat with me, pre-filled and ready.</p></div></div>
+          <div class="wa-step"><span class="wa-sn">02</span><div><strong>Tell me about yourself</strong><p>Your background and what you want to build. One or two lines is enough.</p></div></div>
+          <div class="wa-step"><span class="wa-sn">03</span><div><strong>I reply within 24 hours</strong><p>We discuss your goals and lock a slot and schedule that works for you.</p></div></div>
         </div>
+        <p class="fn">Only serious students with a willingness to learn should message.<br>I personally reply to every genuine enquiry.</p>
       </div>
     </div>
   </div>
@@ -480,7 +481,7 @@ footer { border-top:1px solid var(--line); padding:58px 0 38px; position:relativ
     </div>
     <div class="fbtm">
       <div>© 2026 ROBIN SINGH · ALL RIGHTS RESERVED</div>
-      <div>NO SLOTS UNTIL MID AUGUST · ADVANCE BOOKINGS OPEN</div>
+      <div>NO SLOTS UNTIL END OF AUGUST · ADVANCE BOOKINGS OPEN</div>
     </div>
   </div>
 </footer>
@@ -495,17 +496,6 @@ footer { border-top:1px solid var(--line); padding:58px 0 38px; position:relativ
 </div>
 
 <script>
-const form=document.getElementById('rf'),fwrap=document.getElementById('fwrap'),sb=document.getElementById('sb'),stx=document.getElementById('stx');
-form.addEventListener('submit',async(e)=>{
-  e.preventDefault(); sb.disabled=true; stx.textContent='Sending...';
-  const data=Object.fromEntries(new FormData(form));
-  try{
-    const res=await fetch('https://api.web3forms.com/submit',{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(data)});
-    const r=await res.json();
-    if(r.success){ fwrap.innerHTML='<div class="succ"><div class="big">Welcome.</div><h4>Request received</h4><p>Thanks for applying. I will personally review your request and reach out within 24 hours to discuss your slot and schedule. Talk soon.</p></div>'; }
-    else{ throw new Error('fail'); }
-  }catch(err){ sb.disabled=false; stx.textContent='Try again'; alert('Something went wrong. Please try again or message me on WhatsApp.'); }
-});
 const obs=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');obs.unobserve(e.target);}})},{threshold:0.12});
 document.querySelectorAll('.rv').forEach(el=>obs.observe(el));
 document.querySelectorAll('.fq-q').forEach(btn=>{
